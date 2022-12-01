@@ -2,10 +2,7 @@
   "extends": ["react-app"],
   "plugins": ["react-hooks", "prettier"],
   "rules": {
-    "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error",
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
     "comma-dangle": ["error", "always-multiline"],
     "object-curly-spacing": ["error", "always"],
