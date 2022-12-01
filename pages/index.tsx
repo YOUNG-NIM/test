@@ -163,24 +163,6 @@ export default function Home() {
 
       </div>
 
-      <div className={styles.container}>
-
-        <div className="mt-3">
-
-            <div className="float-end">
-                <a>이용약관</a> | <a>개인정보처리방침</a>
-            </div>
-
-            <img width={150} height={30} src={`/img/logo_gray.png`} />
-
-            <div>
-                Copyright ⓒ 2015 MODUBIZ. All rights reserved.
-            </div>
-
-        </div>
-
-      </div>
-
       <Footer/>
 
     </div>
