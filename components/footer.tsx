@@ -10,17 +10,17 @@ export default function Home() {
             
             <div className="m-3 p-2 bd-highlight">
             <span className={styles.logo}>
-                <img width={55} height={50} src={`/img/ico_home.png`} />
+                <img width={30} height={50} src={`/img/ico_home.png`} />
             </span>
             </div>
             <div className="m-3 p-2 bd-highlight">
             <span className={styles.logo}>
-                <img width={55} height={50} src={`/img/ico_my.png`} />
+                <img width={30} height={50} src={`/img/ico_my.png`} />
             </span>
             </div>
             <div className="m-3 p-2 bd-highlight">
             <span className={styles.logo}>
-                <img width={60} height={50} src={`/img/ico_bubble.png`} />
+                <img width={30} height={50} src={`/img/ico_bubble.png`} />
             </span>
             </div>
         </div>
