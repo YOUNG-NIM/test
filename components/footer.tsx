@@ -4,20 +4,20 @@ export default function Home() {
   return (
     <div>
 
-      <div className="fixed-bottom mb-5">
+      <div className="mb-5">
 
         <div className={styles.container}>
 
           <div className="mt-3 mb-5">
 
               <div className="float-end">
-                  <a>이용약관</a> | <a>개인정보처리방침</a>
+                  <a className={styles.footerText}>이용약관</a> | <a className={styles.footerText}>개인정보처리방침</a>
               </div>
 
-              <img width={150} height={30} src={`/img/logo_gray.png`} />
+              <img width={80} height={15} src={`/img/logo_gray.png`} />
 
               <div>
-                  Copyright ⓒ 2015 MODUBIZ. All rights reserved.
+                  <span className={styles.footerText}>Copyright ⓒ 2015 MODUBIZ. All rights reserved.</span>
               </div>
 
           </div>
@@ -26,7 +26,7 @@ export default function Home() {
 
       </div>
 
-      <div className="position-fixed bottom-0 start-0 end-0"> 
+      <div className="start-0 end-0"> 
 
           <div className="d-flex justify-content-around bg-light">
               

@@ -108,6 +108,25 @@
   margin-left: 0.5rem;
 }
 
+.footerText{
+
+  font-size: 0.8rem;
+
+}
+
+.bannerTitle{
+
+  font-size: 1.0em !important;
+  font-weight: bold;
+
+}
+
+.bannerText{
+
+  font-size: 0.8em !important;
+
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

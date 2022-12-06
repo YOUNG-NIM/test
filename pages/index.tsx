@@ -20,7 +20,7 @@ export default function Home() {
 
           <div className="Navlogo">
             <a className="navbar-brand" href="">
-              <img height={30} src={`/img/logo.png`} />
+              <img height={30} src={`img/logo.png`} />
             </a>
           </div>
 
@@ -48,9 +48,9 @@ export default function Home() {
 
               <div className="card-body">
 
-                <img height={50} src={`/img/ico_charge1.png`} alt="Vercel Logo"/>
-                <h5 className="card-title text-center">휴대폰 소액결제 충전</h5>
-                <p className="card-text text-center">매월 1만~75만</p>
+                <img height={50} src={`img/ico_charge1.png`} alt="Vercel Logo"/>
+                <h5 className="card-title text-center"><span className={styles.bannerTitle}>휴대폰 소액결제 충전</span></h5>
+                <p className="card-text text-center"><span className={styles.bannerText}>매월 1만~75만</span></p>
 
               </div>
 
@@ -64,9 +64,9 @@ export default function Home() {
 
               <div className="card-body">
 
-                <img height={50} src={`/img/ico_charge2.png`} alt="Vercel Logo"/>
-                <h5 className="card-title text-center">휴대폰 소액결제 충전</h5>
-                <p className="card-text text-center">매월 1만~75만</p>
+                <img height={50} src={`img/ico_charge2.png`} alt="Vercel Logo"/>
+                <h5 className="card-title text-center"><span className={styles.bannerTitle}>휴대폰 소액결제 충전</span></h5>
+                <p className="card-text text-center"><span className={styles.bannerText}>매월 1만~75만</span></p>
 
               </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
 
               <div className="carousel-item active">
 
-                <img className="d-block w-100" src={`/img/img_mbanner01.png`} alt="Vercel Logo"/>
+                <img className="d-block w-100" src={`img/img_mbanner01.png`} alt="Vercel Logo"/>
 
               </div>
 
@@ -111,7 +111,7 @@ export default function Home() {
 
             <span className="m-2">
 
-              <img width={30} src={`/img/ico_card1.png`} alt="Vercel Logo"/>
+              <img width={30} src={`img/ico_card1.png`} alt="Vercel Logo"/>
 
             </span>
 
@@ -124,7 +124,7 @@ export default function Home() {
 
             <span className="m-2">
 
-              <img width={30} src={`/img/ico_card2.png`} alt="Vercel Logo"/>
+              <img width={30} src={`img/ico_card2.png`} alt="Vercel Logo"/>
 
             </span>
 
@@ -137,7 +137,7 @@ export default function Home() {
             
             <span className="m-2">
 
-              <img width={30} src={`/img/ico_chargelst.png`} alt="Vercel Logo"/>
+              <img width={30} src={`img/ico_chargelst.png`} alt="Vercel Logo"/>
 
             </span>
 

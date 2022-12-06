@@ -4,15 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "GENERATE_SOURCEMAP=false next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "static": "next build && next export"
   },
   "dependencies": {
     "@capacitor/android": "^4.6.0",
     "@capacitor/cli": "^4.6.0",
     "@capacitor/core": "^4.6.0",
     "@capacitor/ios": "^4.6.0",
+    "@capacitor/share": "^4.1.0",
     "@prisma/client": "^4.7.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
