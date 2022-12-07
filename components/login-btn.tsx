@@ -33,7 +33,7 @@ export default function LoginBtn() {
     <div className="mt-3 mb-3">
       <div className={styles.container}>
 
-        <a onClick={() => signIn()}>
+        <a href="signin">
           <div className={styles.loginsub}>
             <div className="float-end">
                 

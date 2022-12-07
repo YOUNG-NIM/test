@@ -7,7 +7,7 @@ import React, { useState, useRef } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 
-const Signup: React.FC = (props) => {
+const Signin: React.FC = (props) => {
 
   const [formStatus, setFormStatus] = useState<string>("");
 
@@ -57,7 +57,7 @@ const Signup: React.FC = (props) => {
 
                 </a>
 
-                <span className="fs-5 text-center">회원가입</span>
+                <span className="fs-5 text-center">로그인</span>
                 
                 <span className="opacity-0">
 
@@ -75,7 +75,7 @@ const Signup: React.FC = (props) => {
 
                 <div className="text-center mt-4">
                     <h1>
-                    Sign Up
+                    Sign In
                     </h1>
                 </div>
 
@@ -130,7 +130,7 @@ const Signup: React.FC = (props) => {
                         className="btn btn-dark"
                         type="submit"
                     >
-                        Sign Up
+                        Sign In
                     </button>
                     </div>
 
@@ -147,4 +147,4 @@ const Signup: React.FC = (props) => {
   );
 };
 
-export default Signup;
+export default Signin;
