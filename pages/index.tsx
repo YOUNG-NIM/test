@@ -44,7 +44,7 @@ export default function Home() {
         <div className="row row-cols-2 row-cols-md-2 g-2">
 
           <div className="col">
-            <div className="card text-center">
+            <div className="card bg-light text-center">
               <div className="card-body">
                   <img height={50} src={`img/ico_charge1.png`} alt="Vercel Logo"/>
                   <h5 className="card-title"><span className={styles.bannerTitle}>휴대폰 소액결제 충전</span></h5>
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
 
           <div className="col">
-            <div className="card text-center">
+            <div className="card bg-light text-center">
               <div className="card-body">
                 <img height={50} src={`img/ico_charge2.png`} alt="Vercel Logo"/>
                 <h5 className="card-title"><span className={styles.bannerTitle}>포인트/상품권 충전</span></h5>
