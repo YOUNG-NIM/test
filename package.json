@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "GENERATE_SOURCEMAP=false next build",
+    "winbuild": "set \"GENERATE_SOURCEMAP=false\" && next build",
     "start": "next start",
     "lint": "next lint",
     "static": "next build && next export"

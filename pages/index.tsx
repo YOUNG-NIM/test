@@ -57,8 +57,8 @@ export default function Home() {
             <div className="card text-center">
               <div className="card-body">
                 <img height={50} src={`img/ico_charge2.png`} alt="Vercel Logo"/>
-                <h5 className="card-title"><span className={styles.bannerTitle}>휴대폰 소액결제 충전</span></h5>
-                <p className="card-text"><span className={styles.bannerText}>매월 1만~75만</span></p>  
+                <h5 className="card-title"><span className={styles.bannerTitle}>포인트/상품권 충전</span></h5>
+                <p className="card-text"><span className={styles.bannerText}>OK캐쉬백, 해피머니캐시 등</span></p>  
               </div>
             </div>
           </div>

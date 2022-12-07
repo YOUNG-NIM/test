@@ -6,7 +6,7 @@ const config: CapacitorConfig = {
   webDir: 'out',
   bundledWebRuntime: false,
   server: {
-		url: 'http://192.168.0.17:3000',
+		url: 'https://test-young-nim.vercel.app/',
 		cleartext: true
 	}
 };
