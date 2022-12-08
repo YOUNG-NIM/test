@@ -232,6 +232,8 @@ export default function Home() {
             </div>
 
             <div className="modal-body text-decoration-none">
+              
+              <div className={styles.blackFont}>
             
               <p>제 1조 총칙</p><br></br>
               <p>컨텐츠 운영사인 "(주)모두", "MODU" (이하 “회사”라 함)는 이용자의 개인정보를 적극적으로 보호하며 정보통신망 이용촉진 및 정보보호 등에 관한 법률 (이하 정통망법) 등 관련 법령에 의거하여 개인정보 처리방침을 제정하고 이를 준수하고 있습니다.</p><br></br>
@@ -410,6 +412,8 @@ export default function Home() {
 
               <div className="d-grid gap-2">
                 <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+
               </div>
 
             </div>
