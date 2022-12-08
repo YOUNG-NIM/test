@@ -49,7 +49,8 @@ export default function Home() {
             <div className="modal-header">
 
               <h1 className="modal-title fs-5 fw-bold" id="staticBackdropLabel">
-                서비스 이용약관
+                <span className={styles.blackFont}>서비스 이용약관</span>
+                
               </h1>
 
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -228,7 +229,7 @@ export default function Home() {
             <div className="modal-header">
 
               <h1 className="modal-title fs-5 fw-bold" id="staticBackdropLabel">
-                개인정보처리방침
+                <span className={styles.blackFont}>개인정보처리방침</span>
               </h1>
 
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
