@@ -57,6 +57,8 @@ export default function Home() {
             </div>
 
             <div className="modal-body text-reset">
+
+            <div className={styles.blackFont}>
             
               <p>제1장 총 칙</p><br></br>
 
@@ -209,6 +211,8 @@ export default function Home() {
 
               <div className="d-grid gap-2">
                 <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+
               </div>
 
             </div>
