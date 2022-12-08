@@ -19,7 +19,7 @@ export default function Home() {
                   <span> | </span>
                   
                   <span data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <span className={styles.footerText}>개인정보처리방침</span>
+                    <span className={styles.footerText}>개인정보 처리방침</span>
                   </span>
 
               </div>
