@@ -24,7 +24,13 @@ export default function Home() {
 
               </div>
 
-              <img width={80} height={15} src={`/img/logo_gray.png`} />
+              <img width={80} height={15} src={`/img/logo_gray.png`} data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"/>
+
+              <div className="collapse" id="collapseExample">
+                <div className="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
 
               <div>
                   <span className={styles.footerText}>Copyright ⓒ 2015 MODUBIZ. All rights reserved.</span>
@@ -50,7 +56,7 @@ export default function Home() {
 
             </div>
 
-            <div className="modal-body">
+            <div className="modal-body text-reset">
             
               <p>제1장 총 칙</p><br></br>
 
@@ -225,7 +231,7 @@ export default function Home() {
 
             </div>
 
-            <div className="modal-body">
+            <div className="modal-body text-decoration-none">
             
               <p>제 1조 총칙</p><br></br>
               <p>컨텐츠 운영사인 "(주)모두", "MODU" (이하 “회사”라 함)는 이용자의 개인정보를 적극적으로 보호하며 정보통신망 이용촉진 및 정보보호 등에 관한 법률 (이하 정통망법) 등 관련 법령에 의거하여 개인정보 처리방침을 제정하고 이를 준수하고 있습니다.</p><br></br>

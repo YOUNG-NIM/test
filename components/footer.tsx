@@ -10,21 +10,24 @@ export default function Home() {
 
                 <div className="d-flex justify-content-around">
                     
+                    <a className="m-1 p-2 bd-highlight" href="../">
+                        <span className={styles.logo}>
+                            <img width={41} height={40} src={`/img/ico_home.png`} />
+                        </span>
+                    </a>
+
                     <div className="m-1 p-2 bd-highlight">
-                    <span className={styles.logo}>
-                        <img width={41} height={40} src={`/img/ico_home.png`} />
-                    </span>
+                        <span className={styles.logo}>
+                            <img width={41} height={40} src={`/img/ico_my.png`} />
+                        </span>
                     </div>
+
                     <div className="m-1 p-2 bd-highlight">
-                    <span className={styles.logo}>
-                        <img width={41} height={40} src={`/img/ico_my.png`} />
-                    </span>
+                        <span className={styles.logo}>
+                            <img width={42} height={40} src={`/img/ico_bubble.png`} />
+                        </span>
                     </div>
-                    <div className="m-1 p-2 bd-highlight">
-                    <span className={styles.logo}>
-                        <img width={42} height={40} src={`/img/ico_bubble.png`} />
-                    </span>
-                    </div>
+
                 </div>
             </div> 
 
