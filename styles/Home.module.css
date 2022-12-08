@@ -1,3 +1,4 @@
+
 .container {
   padding: 0 2rem;
 }
@@ -90,6 +91,12 @@
 .footerText{
 
   font-size: 0.8rem;
+
+}
+
+.footerDiv{
+
+  background-color: #000;
 
 }
 
