@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <nav className="navbar bg-light">
+        <nav className="navbar">
 
             <div className="container-fluid m-3">
 

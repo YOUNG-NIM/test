@@ -102,6 +102,7 @@
 
 .bannerTitle{
 
+  color:#000;
   font-size: 0.7em !important;
   font-weight: bold;
 
@@ -109,6 +110,7 @@
 
 .bannerText{
 
+  color:#000;
   font-size: 0.6em !important;
 
 }
