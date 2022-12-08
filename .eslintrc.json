@@ -14,7 +14,7 @@
     "comma-spacing": ["error", { "before": false, "after": true }],
     //"eol-last": ["error", "always"],
     //"quotes": ["error", "single"],
-    "no-tabs": "error",
+    //"no-tabs": "error",
     //"semi": ["error", "never"],
     "import/no-anonymous-default-export": 0,
     "object-shorthand": "error",
